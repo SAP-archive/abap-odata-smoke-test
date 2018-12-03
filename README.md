@@ -7,24 +7,30 @@ ABAP Report to run simple ODATA smoke tests
 * (Optional) Performs an arbitary entityset call
 * Collects HTTP Status Codes / Response via SAP Application log
 
-![demo smoke test](http://sap.frumania.com/smoke_test.png)
+![demo smoke test](http://sap.frumania.com/smoke_test.png =500x))
+
+# System Requirements
+
+* tested on NW ABAP >= 7.52
+* Requires working GW Client functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
+* User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
 
 # Deployment
 
-* Run transaction SE38
+* Run transaction "SE38"
 * create new executable report e.g. Z_ODATA_SMOKE_TEST
 * [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/Z_ODATA_SMOKE_TEST.txt)
 * Save & Activate
 
 # Execution
 
-After deployment, run report via SE38.
+After deployment, run report via "SE38".
 
-Output/Progress can be observed via transaction SLG1, Object "/IWFND/", Subobject "RUNTIME".
+Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME".
 
 Flag <test_entity = abap_true.> determines, whether entityset calls are performed (default = on).
 
-> ATTENTION: Depending on the amount of active services, it might take a while!!!
+> ATTENTION: Depending on the amount of active services, especially the initial execution might take a while!
 
 # License
 
