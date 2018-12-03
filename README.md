@@ -1,6 +1,8 @@
 # Purpose
 
-Sample Code for an ABAP Report to run simple ODATA smoke tests
+ODATA services nowadays serve as a foundation of SAP Fiori apps. This ABAP Report provides sample code to run simple ODATA smoke tests in order to check their technical availability after activation.
+
+Flow:
 * Evaluates all activated ODATA Services
 * Performs a $metadata call
 * (Optional) Performs a service document call
@@ -9,7 +11,7 @@ Sample Code for an ABAP Report to run simple ODATA smoke tests
 
 # Output
 
-Once finished, results will be shown automatically! Moreover, they can also be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below.
+Once finished, results will be shown automatically! Moreover, they can also be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below:
 
 ![demo smoke test](https://github.com/SAP/abap-odata-smoke-test/blob/master/docs/img/smoke_test.png)
 
