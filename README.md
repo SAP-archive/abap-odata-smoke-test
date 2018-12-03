@@ -5,6 +5,9 @@ ABAP Report to run simple ODATA smoke tests
 * Performs a $metadata call
 * (Optional) Performs a service document call
 * (Optional) Performs an arbitary entityset call
+* Collects HTTP Status Codes / Reponse in SAP Application log
+
+![demo smoke test][http://sap.frumania.com/smoke_test.png]
 
 # Deployment
 
