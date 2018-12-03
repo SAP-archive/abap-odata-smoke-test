@@ -3,7 +3,7 @@
 ODATA services nowadays serve as a foundation of SAP Fiori apps. This ABAP Report provides sample code to run simple ODATA smoke tests in order to check their technical availability after activation.
 
 Flow:
-* Evaluates all activated ODATA Services
+* Evaluates all activated ODATA Services (as in transaction /IWFND/MAINT_SERVICE)
 * Performs a $metadata call
 * (Optional) Performs a service document call
 * (Optional) Performs an arbitary entityset call
@@ -39,7 +39,6 @@ Flag <test_entity = abap_false.> determines, whether entityset calls are perform
 > ATTENTION: Depending on the amount of active services, especially the initial execution can take minutes up to couple of hours!
 
 # License
-
 
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
 
