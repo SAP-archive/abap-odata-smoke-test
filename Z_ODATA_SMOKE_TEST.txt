@@ -43,7 +43,7 @@ DATA:
 it_services TYPE table of /IWFND/I_MED_SIN with header line.
 
 * ENABLE/DISABLE GET ENTITYSET CALLS
-test_entity = abap_true.
+test_entity = abap_false.
 
 *&---------------------------------------------------------------------*
 *& FETCH ALL ODATA SERVICES
