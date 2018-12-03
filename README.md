@@ -1,6 +1,6 @@
 # Purpose
 
-ABAP Report to run simple ODATA smoke tests.
+ABAP Report to run simple ODATA smoke tests
 * Evaluates all activated ODATA Services
 * Performs a $metadata call
 * (Optional) Performs a service document call
@@ -8,11 +8,10 @@ ABAP Report to run simple ODATA smoke tests.
 
 # Deployment
 
-Run transaction SE38, create new executable report e.g. Z_ODATA_SMOKE_TEST
-
-[Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/Z_ODATA_SMOKE_TEST.txt)
-
-Save & Activate
+* Run transaction SE38
+* create new executable report e.g. Z_ODATA_SMOKE_TEST
+* [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/Z_ODATA_SMOKE_TEST.txt)
+* Save & Activate
 
 # Execution
 
@@ -20,9 +19,9 @@ After deployment, run report via SE38.
 
 Output/Progress can be observed via transaction SLG1, Object "/IWFND/", Subobject "RUNTIME".
 
-> Depending on the amount of active services, it might take a while!!!
+Flag <test_entity = abap_true.> determines, whether entityset calls are performed (default = on).
 
-Flag <test_entity = abap_true.> determines, whether entityset calls are performed.
+> ATTENTION: Depending on the amount of active services, it might take a while!!!
 
 # License
 
