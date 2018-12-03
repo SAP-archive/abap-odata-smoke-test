@@ -34,7 +34,7 @@ Output will be displayed automatically, once report is finished, or can be obser
 
 Flag <test_entity = abap_false.> determines, whether entityset calls are performed (default = off).
 
-> ATTENTION: Depending on the amount of active services, especially the initial execution might take a while!
+> ATTENTION: Depending on the amount of active services, especially the initial execution can take minutes up to couple of hours!
 
 # License
 
