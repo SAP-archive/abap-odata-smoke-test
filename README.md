@@ -23,7 +23,7 @@ Once finished, results will be shown automatically! Moreover, they can also be o
 
 # Download
 
-xyz
+It is actually not necessary to download any files, you can easily copy and paste the required code fragments directly, as mentioned in section Installation. If you still like to have a local copy, you can follow this [guide](https://help.github.com/articles/cloning-a-repository/).
 
 # Installation
 
@@ -44,7 +44,7 @@ Flag <test_entity = abap_false.> determines, whether entityset calls are perform
 
 # Support
 
-xyz
+This project is provided "as-is": there is no guarantee that raised issues will be answered or addressed.
 
 # License
 
