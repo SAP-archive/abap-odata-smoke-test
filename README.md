@@ -1,6 +1,6 @@
 # Purpose
 
-ABAP Report to run simple ODATA smoke tests
+Sample Code for an ABAP Report to run simple ODATA smoke tests
 * Evaluates all activated ODATA Services
 * Performs a $metadata call
 * (Optional) Performs a service document call
