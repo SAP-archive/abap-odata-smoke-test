@@ -9,7 +9,7 @@ Sample Code for an ABAP Report to run simple ODATA smoke tests
 
 # Output
 
-Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below.
+Once finished, results can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below.
 
 ![demo smoke test](http://sap.frumania.com/smoke_test.png)
 
@@ -30,7 +30,7 @@ Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobj
 
 After deployment, run report via "SE38".
 
-Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME".
+Output can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME".
 
 Flag <test_entity = abap_false.> determines, whether entityset calls are performed (default = off).
 
