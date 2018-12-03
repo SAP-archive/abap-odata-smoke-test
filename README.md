@@ -11,7 +11,7 @@ Sample Code for an ABAP Report to run simple ODATA smoke tests
 
 Once finished, results will be shown automatically! Moreover, they can also be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below.
 
-![demo smoke test](http://sap.frumania.com/smoke_test.png)
+![demo smoke test](https://github.com/SAP/abap-odata-smoke-test/blob/master/docs/img/smoke_test.png)
 
 # System Requirements
 
@@ -23,7 +23,7 @@ Once finished, results will be shown automatically! Moreover, they can also be o
 
 * Run transaction "SE38"
 * create new executable report e.g. Z_ODATA_SMOKE_TEST
-* [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/Z_ODATA_SMOKE_TEST.txt)
+* [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/src/Z_ODATA_SMOKE_TEST.txt)
 * Save & Activate
 
 # Execution
@@ -38,4 +38,7 @@ Flag <test_entity = abap_false.> determines, whether entityset calls are perform
 
 # License
 
-[SAP Sample Code License Agreement v1.0](https://github.com/SAP/abap-odata-smoke-test/blob/master/SAP%20Sample%20Code%20License%20Agreement%20v1.0.docx)
+
+Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
+
+This file is licensed under the SAP SAMPLE CODE LICENSE AGREEMENT except as noted otherwise in the [LICENSE](https://github.com/SAP/abap-odata-smoke-test/blob/master/LICENSE) file.
