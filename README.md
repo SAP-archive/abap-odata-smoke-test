@@ -10,11 +10,19 @@ ABAP Report to run simple ODATA smoke tests.
 
 Run transaction SE38, create new executable report e.g. Z_ODATA_SMOKE_TEST
 
-Copy Source Code (Contents of .txt)
+[Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/Z_ODATA_SMOKE_TEST.txt)
+
+Save & Activate
 
 # Execution
 
-After installation, run report via F8
+After deployment, run report via SE38.
+
+Output/Progress can be observed via transaction SLG1, Object "/IWFND/", Subobject "RUNTIME".
+
+> Depending on the amount of active services, it might take a while!!!
+
+Flag <test_entity = abap_true.> determines, whether entityset calls are performed.
 
 # License
 
