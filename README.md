@@ -32,7 +32,7 @@ After deployment, run report via "SE38".
 
 Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME".
 
-Flag <test_entity = abap_true.> determines, whether entityset calls are performed (default = on).
+Flag <test_entity = abap_false.> determines, whether entityset calls are performed (default = off).
 
 > ATTENTION: Depending on the amount of active services, especially the initial execution might take a while!
 
