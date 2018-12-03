@@ -7,6 +7,10 @@ ABAP Report to run simple ODATA smoke tests
 * (Optional) Performs an arbitary entityset call
 * Collects HTTP Status Codes / Response via SAP Application log
 
+# Output
+
+Output/Progress can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below.
+
 ![demo smoke test](http://sap.frumania.com/smoke_test.png)
 
 # System Requirements
