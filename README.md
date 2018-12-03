@@ -9,23 +9,15 @@ Flow:
 * (Optional) Performs an arbitary entityset call
 * Collects HTTP Status Codes / Response via SAP Application log
 
-## Output
-
-Once finished, results will be shown automatically! Moreover, they can also be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below. The result list can easily be sorted and help during further troubleshooting.
-
-![demo smoke test](https://github.com/SAP/abap-odata-smoke-test/blob/master/docs/img/smoke_test.png)
-
 # Requirements
 
 * tested on NW ABAP >= 7.52
 * Requires working GW Client functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
 
-# Download
+# Download & Installation
 
-It is actually not necessary to download any files, you can easily copy and paste the required code fragments directly, as mentioned in section Installation. If you still like to have a local copy, you can follow this [guide](https://help.github.com/articles/cloning-a-repository/).
-
-# Installation
+It is actually not necessary to download any files, you can easily copy and paste the required code fragments directly, as mentioned below. If you still like to have a local copy, you can follow this [guide](https://help.github.com/articles/cloning-a-repository/).
 
 * Run SAPGUI, execute transaction "SE38"
 * create new executable report e.g. Z_ODATA_SMOKE_TEST
@@ -36,11 +28,15 @@ It is actually not necessary to download any files, you can easily copy and past
 
 After installation/deployment, run report via "SE38".
 
-Output will be displayed automatically, once report is finished, or can be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME".
-
 Flag <test_entity = abap_false.> determines, whether entityset calls are performed (default = off).
 
 > ATTENTION: Depending on the amount of active services, especially the initial execution can take minutes up to couple of hours!
+
+## Output
+
+Once finished, results will be shown automatically! Moreover, they can also be observed via transaction "SLG1", Object "/IWFND/", Subobject "RUNTIME", as seen below. The result list can easily be sorted and help during further troubleshooting.
+
+![demo smoke test](https://github.com/SAP/abap-odata-smoke-test/blob/master/docs/img/smoke_test.png)
 
 # Support
 
