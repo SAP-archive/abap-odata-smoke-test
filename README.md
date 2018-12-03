@@ -42,4 +42,4 @@ Flag <test_entity = abap_false.> determines, whether entityset calls are perform
 
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
 
-This file is licensed under the SAP SAMPLE CODE LICENSE AGREEMENT except as noted otherwise in the [LICENSE](https://github.com/SAP/abap-odata-smoke-test/blob/master/LICENSE) file.
+The content of this repository is licensed under the SAP SAMPLE CODE LICENSE AGREEMENT as noted in the [LICENSE](https://github.com/SAP/abap-odata-smoke-test/blob/master/LICENSE) file.
