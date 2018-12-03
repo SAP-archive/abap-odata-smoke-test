@@ -10,3 +10,5 @@ Copy Source Code (Contents of .txt)
 # Settings
 
 # License
+
+[SAP Sample Code License Agreement v1.0](https://www.google.com)
