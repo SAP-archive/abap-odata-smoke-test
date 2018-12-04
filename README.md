@@ -1,6 +1,6 @@
 # Description
 
-ODATA services nowadays serve as a foundation of SAP Fiori apps and are therefore utilized at large scale. To ensure that services are working correctly after activation, this ABAP Report can provide simple ODATA smoke testing capabilities for all activated services all at once.
+ODATA services nowadays serve as a foundation of SAP Fiori apps and are therefore utilized at large scale. To ensure that services are working correctly after activation, this ABAP Report performs simple smoke tests for activated ODATA services all at once, significantly lowering testing and post-activation efforts.
 
 Flow:
 * Evaluates all activated ODATA Services (as in transaction /IWFND/MAINT_SERVICE)
