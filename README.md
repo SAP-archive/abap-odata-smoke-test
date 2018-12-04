@@ -7,7 +7,7 @@ Flow:
 * Performs a $metadata call
 * (Optional) Performs a service document call
 * (Optional) Performs an arbitary entityset call
-* Collects HTTP Status Codes / Response via SAP Application log
+* Collects HTTP Status Codes / Responses and outputs it to the Application Log (transaction SLG1)
 
 # Requirements
 
