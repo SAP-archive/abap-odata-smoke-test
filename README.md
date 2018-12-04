@@ -1,6 +1,6 @@
 # Description
 
-ODATA services nowadays serve as a foundation of SAP Fiori apps. This ABAP Report provides sample code to run simple ODATA smoke tests in order to check their technical availability after activation.
+ODATA services nowadays serve as a foundation of SAP Fiori apps and are therefore utilized at large scale. To ensure that services are working correctly after activation, this ABAP Report can provide simple ODATA smoke testing capabilities for all activated services all at once.
 
 Flow:
 * Evaluates all activated ODATA Services (as in transaction /IWFND/MAINT_SERVICE)
@@ -11,8 +11,9 @@ Flow:
 
 # Requirements
 
-* tested on NW ABAP >= 7.52
-* Requires working GW Client functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
+* any SAP Netweaver ABAP >= 7.51 (e.g. S/4HANA Sandbox System)[https://blogs.sap.com/?p=745947]
+* Requires software component SAP_GWFND = SAP Gateway
+* Requires working (SAP Gateway Client)[https://wiki.scn.sap.com/wiki/display/ABAPConn/Gateway+Client] functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
 
 # Download & Installation
