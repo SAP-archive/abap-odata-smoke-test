@@ -11,7 +11,7 @@ Flow:
 
 # Requirements
 
-* any **SAP Netweaver ABAP >= 7.51** [e.g. SAP S/4HANA](https://blogs.sap.com/?p=745947)
+* any **SAP Netweaver ABAP >= 7.51** e.g. [SAP S/4HANA](https://blogs.sap.com/?p=745947)
 * Requires software component SAP_GWFND [(Gateway)](https://launchpad.support.sap.com/#/notes/2512479) installed
 * Requires working [Gateway Client](https://wiki.scn.sap.com/wiki/display/ABAPConn/Gateway+Client) functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
