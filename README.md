@@ -11,7 +11,7 @@ Report Flow:
 
 # Limitations
 
-There is no validation of request content, data correctness or completeness. Also notice, that for arbitary entityset calls, not necessarily every call might succeed, as some entities require mandatory parameters! Additional testing should be done using third party tools, that can verify and correlate each ODATA service request. 
+There is no validation of request content, data correctness or completeness. Also notice, that for arbitary entityset calls, not necessarily every call might succeed, as some entities require mandatory parameters! Further testing therefore could be done using third party tools, that can verify and correlate each ODATA service request. 
 
 # Requirements
 
