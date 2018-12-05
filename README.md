@@ -1,6 +1,6 @@
 # Description
 
-ABAP projects that are using ODATA services, and want a basic testing tool for those services, can use smoke-test to verify basic ODATA functionality.    
+Any projects that are using ODATA services from an ABAP environment, as for example within SAP Fiori Apps, and are looking for a basic testing tool, can use this smoke-test technique to verify basic ODATA functionality.  
 
 This ABAP Report performs simple [smoke tests](https://en.wikipedia.org/wiki/Smoke_testing_%28software%29) for activated ODATA services all at once, providing basic automated testing for your ODATA endpoints. These smoke tests mainly cover the retrieval of ODATA service metadata and optionally can perform an arbitary entityset request. The resulting HTTP response codes are collected (e.g. OK = HTTP 200) and displayed in a list view.  
 
