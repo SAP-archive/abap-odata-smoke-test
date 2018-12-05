@@ -1,8 +1,9 @@
 # Description
 
-ODATA services nowadays serve as a foundation of SAP Fiori apps and are therefore utilized at large scale. To ensure that services are working correctly after activation, this ABAP Report performs simple [smoke tests](https://en.wikipedia.org/wiki/Smoke_testing_%28software%29) for activated ODATA services all at once, significantly lowering testing and post-activation efforts.
+ODATA services nowadays serve as a foundation of SAP Fiori apps and are therefore utilized at large scale. To ensure that services are working correctly after activation, this ABAP Report performs simple [smoke tests](https://en.wikipedia.org/wiki/Smoke_testing_%28software%29) for activated ODATA services all at once, hence can significantly lower your testing and post-activation efforts in your projects. These smoke tests mainly cover the retrieval of ODATA service metadata and optionally can perform an arbitary entityset request. For these ODATA calls, the resulting HTTP response codes are collected (e.g. OK = HTTP 200) and displayed in a list view.  
+**Note:** There is no validation of request content, data correctness or completeness. Also notice, that for arbitary entityset calls, not necessarily every call might succeed, as some entities require mandatory parameters!
 
-Flow:
+Report Flow:
 * Evaluates all activated ODATA Services (as in transaction /IWFND/MAINT_SERVICE)
 * Performs a $metadata call
 * (Optional) Performs a service document call
@@ -11,7 +12,9 @@ Flow:
 
 # Requirements
 
-* any **SAP Netweaver ABAP >= 7.51** e.g. [SAP S/4HANA](https://blogs.sap.com/?p=745947)
+The provided coding works in any environment, that meets the following technical prerequisites:
+
+* **SAP Netweaver ABAP >= 7.51** environment e.g. [SAP S/4HANA](https://blogs.sap.com/?p=745947)
 * Requires software component SAP_GWFND [(Gateway)](https://launchpad.support.sap.com/#/notes/2512479) installed
 * Requires working [Gateway Client](https://wiki.scn.sap.com/wiki/display/ABAPConn/Gateway+Client) functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
