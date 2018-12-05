@@ -1,4 +1,6 @@
-# Description
+# ABAP ODATA Smoke-Test tool 
+
+## Description
 
 Any projects that are using ODATA services from an ABAP environment, as for example within SAP Fiori Apps, and are looking for a basic testing tool, can use this smoke-test technique to verify basic ODATA functionality.  
 
@@ -11,11 +13,11 @@ Report Flow:
 * (Optional) Performs an arbitary entityset call
 * Collects HTTP Status Codes / Responses and outputs it to the Application Log (transaction SLG1)
 
-# Limitations
+## Limitations
 
 There is no validation of request content, data correctness or completeness. Also notice, that for arbitary entityset calls, not necessarily every call might succeed, as some entities require mandatory parameters! Further testing therefore could be done using third party tools, that can verify and correlate each ODATA service request. 
 
-# Requirements
+## Requirements
 
 The provided coding works in any environment, that meets the following technical prerequisites:
 
@@ -24,7 +26,7 @@ The provided coding works in any environment, that meets the following technical
 * Requires working [Gateway Client](https://wiki.scn.sap.com/wiki/display/ABAPConn/Gateway+Client) functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
 
-# Download & Installation
+## Download & Installation
 
 It is actually not necessary to download any files, you can easily copy and paste the required code fragments directly, as mentioned below. If you still like to have a local copy, you can follow this [guide](https://help.github.com/articles/cloning-a-repository/).
 
@@ -33,7 +35,7 @@ It is actually not necessary to download any files, you can easily copy and past
 * [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/src/Z_ODATA_SMOKE_TEST.txt)
 * Save & Activate
 
-# Execution
+## Execution
 
 After installation/deployment, run report via "SE38".
 
@@ -47,11 +49,11 @@ Once finished, results will be shown automatically! Moreover, they can also be o
 
 ![demo smoke test](https://github.com/SAP/abap-odata-smoke-test/blob/master/docs/img/smoke_test.png)
 
-# Support
+## Support
 
 This project is provided "as-is", with no support or changes planned.
 
-# License
+## License
 
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
 
