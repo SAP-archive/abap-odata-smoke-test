@@ -32,7 +32,7 @@ It is actually not necessary to download any files, you can easily copy and past
 
 * Run SAPGUI, execute transaction "SE38"
 * create new executable report e.g. Z_ODATA_SMOKE_TEST
-* [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/src/Z_ODATA_SMOKE_TEST.txt)
+* [Copy & Paste Source Code](https://github.com/SAP/abap-odata-smoke-test/blob/master/src/Z_ODATA_SMOKE_TEST.abap)
 * Save & Activate
 
 ## Execution
