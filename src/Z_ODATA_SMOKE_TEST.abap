@@ -1,8 +1,8 @@
 *&---------------------------------------------------------------------*
 *& Report Z_ODATA_SMOKE_TEST
 *&---------------------------------------------------------------------*
-*& PURPOSE: RETRIEVE ALL ODATA SERVICES AND PEFORM $metadata
-*& AND A RANDOM ENTITY CALL
+*& PURPOSE: RETRIEVE ALL ACTIVE ODATA SERVICES AND PERFORM A $METADATA
+*& AS WELL AS A RANDOM ENTITY CALL (OPTIONAL => FLAG test_entity)
 *&---------------------------------------------------------------------*
 REPORT Z_ODATA_SMOKE_TEST.
 
