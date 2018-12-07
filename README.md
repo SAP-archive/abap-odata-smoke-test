@@ -51,7 +51,7 @@ Once finished, results will be shown automatically! Moreover, they can also be o
 
 ## Support
 
-This project is provided "as-is", with no support or changes planned.
+This project is provided "as-is", but you are welcome to leave feedback or report bugs. Please note however, that the processing of submitted issues is done without commitment.
 
 ## License
 
