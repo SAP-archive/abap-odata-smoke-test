@@ -21,7 +21,7 @@ There is no validation of request content, data correctness or completeness. Als
 
 The provided coding works in any environment, that meets the following technical prerequisites:
 
-* **SAP Netweaver ABAP >= 7.51** environment e.g. [SAP S/4HANA](https://blogs.sap.com/?p=745947) - tested only with production copy.
+* **SAP Netweaver ABAP >= 7.51** environment e.g. tested on [SAP S/4HANA 1709/1809](https://blogs.sap.com/?p=745947)
 * Software component SAP_GWFND [(Gateway)](https://launchpad.support.sap.com/#/notes/2512479) installed
 * Requires working [Gateway Client](https://wiki.scn.sap.com/wiki/display/ABAPConn/Gateway+Client) functionality (uses HTTP) - check also transaction "/IWFND/GW_CLIENT"
 * User with SAP_ALL or similar authorizations to execute ODATA services and perform entityset calls
